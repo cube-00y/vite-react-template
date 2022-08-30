@@ -1,0 +1,12 @@
+
+.git/
+.gitignore
+.prettierignore
+.eslintignore
+.browserslistrc
+
+/build/
+/packages/
+/public/
+/scripts/
+/src/assets/

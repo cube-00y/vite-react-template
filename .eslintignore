@@ -1,0 +1,7 @@
+/node_modules/
+/build/
+/public/
+/packages/
+/scripts/
+/src/assets/
+*.json

@@ -1,8 +1,16 @@
-# VITE
+# React with Vite
 
-## Default Cert Setting
+## Development Environment
+**Node Version (OS X)**
+```
+use nvm
 
-When don't have Cert File, Need make cert file first
+Nodejs > v16.14.x
+npm > v6.14.x
+yarn > v1.22.x (Default Used)
+```
+
+## Cert Setting
 
 **In Terminal (OS X)**
 
@@ -28,4 +36,25 @@ mkdir -p .cert && mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem '
 - Use Yarn or NPM
 ```
 > yarn run cert
+```
+
+## Env sample
+**Create and write .env file to project root**
+```
+# .env
+VITE_PORT=4000
+```
+
+## Run Script
+```
+# Local development server
+## Default Port = 4000 < declared in ".env" file
+> yarn install
+> yarn run dev
+
+# Production build
+> yarn run build
+
+# Preview production build
+> yarn run preview
 ```
