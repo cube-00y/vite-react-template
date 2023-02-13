@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
 			host: "localhost",
 			strictPort: true,
 			https: true,
-			port: Number(process.env.VITE_PORT),
+			port: Number(process.env.VITE_PORT) || 3000,
 		},
 		resolve: {
 			alias: {
